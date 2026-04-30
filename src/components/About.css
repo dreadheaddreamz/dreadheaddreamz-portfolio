@@ -1,0 +1,41 @@
+.about-section {
+    padding: 5rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-card {
+    background-color: #111;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.12);
+}
+
+.about-label {
+    color: #ef4444;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+.about-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-text {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #ddd;
+}
+
+.about-quote {
+    margin-top: 1.5rem;
+    line-height: 1.7;
+    font-style: italic;
+    color: #aaa;
+    border-left: 3px solid #ef4444;
+    padding-left: 1rem;
+}
