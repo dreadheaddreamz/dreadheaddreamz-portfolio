@@ -9,7 +9,6 @@ I didn’t start in tech — I started in security. Over time, I made the decisi
 - React
 - TypeScript
 - CSS
-- Vite
 
 ## ✨ Features
 - Clean, modern UI with a dark theme
