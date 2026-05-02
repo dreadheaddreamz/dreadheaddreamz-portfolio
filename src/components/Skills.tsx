@@ -8,22 +8,22 @@ const Skills = () => {
       <div className="skills-grid">
         <div className="skills-card">
           <h3>Languages</h3>
-          <p>JavaScript, TypeScript, Python, SQL</p>
+          <p>JavaScript • TypeScript • Python • SQL</p>
         </div>
 
         <div className="skills-card">
           <h3>Frameworks</h3>
-          <p>Ruby on Rails, React</p>
+          <p>Ruby on Rails • React</p>
         </div>
 
         <div className="skills-card">
           <h3>Tools</h3>
-          <p>Docker, Git, Linux, VS Code</p>
+          <p>Docker • Git • Linux • VS Code</p>
         </div>
 
         <div className="skills-card">
           <h3>Database</h3>
-          <p>PostgreSQL, MySQL</p>
+          <p>PostgreSQL • MySQL</p>
         </div>
       </div>
     </section>

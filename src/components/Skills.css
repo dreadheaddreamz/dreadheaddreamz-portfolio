@@ -12,16 +12,16 @@
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 .skills-card {
-    background: #111;
-    border: 1px solid rgba(239, 68, 68, 0.3);
-    border-radius: 12px;
-    padding: 1.5rem;
-    transition: 0.3s ease;
+background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    transition: transform 0.2s ease, border 0.2s ease;
 }
 
 .skills-card:hover {

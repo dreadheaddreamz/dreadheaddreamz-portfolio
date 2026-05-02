@@ -1,3 +1,4 @@
+import "./App.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -6,13 +7,13 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-    <>
+    <main className="app">
       <Hero />
       <About />
       <Experience />
       <Skills />
       <Contact />
-    </>
+    </main>
   );
 }
 
