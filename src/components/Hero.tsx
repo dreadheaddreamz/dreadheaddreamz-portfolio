@@ -1,9 +1,11 @@
 import "./Hero.css";
+import profilePic from "../assets/jb_cruise.jpg";
 
 const Hero = () => {
   return (
     <section className="hero">
       <h1 className="hero-name">James Batsell</h1>
+      <img src={profilePic} alt="James Batsell" className="profile-pic" />
 
       <h2 className="hero-brand">Dreadheaddreamz</h2>
 

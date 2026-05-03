@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
       <About />
       <Experience />
       <Skills />
+      <Projects />
       <Contact />
     </main>
   );

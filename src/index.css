@@ -87,7 +87,8 @@ body::after {
 }
 
 .experience-card,
-.skills-card {
+.skills-card,
+.project-card {
   background: rgba(20, 20, 28, 0.9);
   border: 1px solid #222;
   border-radius: 18px;
@@ -96,20 +97,22 @@ body::after {
 }
 
 .experience-card:hover,
-.skills-card:hover {
+.skills-card:hover, .project-card:hover {
   transform: translateY(-6px);
   border-color: rgba(255, 0, 0, 0.35);
   box-shadow: 0 0 35px rgba(255, 0, 0, 0.18);
 }
 
 .experience-card,
-.skills-card {
+.skills-card,
+.project-card {
   position: relative;
   overflow: hidden;
 }
 
 .experience-card::before,
-.skills-card::before {
+.skills-card::before,
+.project-card::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -121,7 +124,8 @@ body::after {
 }
 
 .experience-card:hover::before,
-.skills-card:hover::before {
+.skills-card:hover::before,
+.project-card:hover::before {
   opacity: 1;
 }
 
