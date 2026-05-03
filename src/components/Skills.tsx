@@ -2,7 +2,7 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className="section skills">
       <h2 className="skills-title">Skills</h2>
 
       <div className="skills-grid">
@@ -23,7 +23,7 @@ const Skills = () => {
 
         <div className="skills-card">
           <h3>Database</h3>
-          <p>PostgreSQL • MySQL</p>
+          <p>PostgreSQL • MySQL • SQLite</p>
         </div>
       </div>
     </section>

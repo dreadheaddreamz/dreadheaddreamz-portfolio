@@ -3,8 +3,6 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <section className="contact" id="contact">
-      <p className="contact-label">Reach Out</p>
-
       <h2 className="contact-title">Contact Me</h2>
 
       <p className="contact-text">

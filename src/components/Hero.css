@@ -1,35 +1,52 @@
 .hero {
-    text-align: center;
-    padding: 6rem 1rem;
+    text-align: left;
+    padding: 4rem 1rem 2.5rem;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 
 .hero-name {
-    font-size: 2.75rem;
+    font-size: clamp(2.75rem, 7vw, 5rem);
     font-weight: bold;
     margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+    font-family: "StarJedi", system-ui, sans-serif;
+
+    text-shadow:
+        4px 0 18px rgba(255, 0, 0, 0.45),
+        0 0 8px rgba(255, 255, 255, 0.08);
 }
 
 .hero-brand {
     color: #ef4444;
-    font-size: 1.5rem;
-    text-shadow: 0 0 12px rgba(239, 68, 68, 0.6);
+    font-size: 1.35rem;
+    letter-spacing: 2px;
+    font-family: "StarJedi", system-ui, sans-serif;
+
+    text-shadow:
+        3px 0 14px rgba(255, 0, 0, 0.55),
+        0 0 6px rgba(255, 255, 255, 0.08);
 }
 
 .hero-title {
     margin-top: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    color: #e5e5e5;
+    max-width: 560px;
 }
 
 .hero-stack {
     margin-top: 0.75rem;
     color: #aaa;
     font-size: 0.95rem;
+    max-width: 560px;
 }
 
 .hero-quote {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-style: italic;
     color: #888;
+    max-width: 520px;
+    border-left: 2px solid rgba(255, 0, 0, 0.4);
+    padding-left: 1rem;
 }

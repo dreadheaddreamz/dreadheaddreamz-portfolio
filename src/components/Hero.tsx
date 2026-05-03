@@ -7,7 +7,7 @@ const Hero = () => {
 
       <h2 className="hero-brand">Dreadheaddreamz</h2>
 
-      <p className="hero-title">
+      <p className="hero-subtext">
         Full-Stack Software Engineer | Web Developer | Tech Enthusiast
       </p>
 

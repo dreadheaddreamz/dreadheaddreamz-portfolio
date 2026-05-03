@@ -2,67 +2,38 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <section className="experience" id="experience">
+    <section className="section experience">
       <h2 className="experience-title">Experience</h2>
 
       <div className="experience-card">
-        <h3>Sagiliti</h3>
-        <p className="experience-role">Software Engineer</p>
-        <p className="experience-date">2025 – 2026</p>
+        <div className="experience-header">
+          <div>
+            <h3>Software Engineer</h3>
+            <p>Sagiliti</p>
+          </div>
+          <span>June 2025 – March 2026</span>
+        </div>
 
         <ul>
-          <li>
-            Built and improved backend features in a Ruby on Rails application
-            supporting complex billing and usage workflows
-          </li>
-          <li>
-            Contributed to frontend improvements using React to enhance user
-            experience
-          </li>
-          <li>
-            Implemented data validation systems to improve data integrity and
-            surface issues
-          </li>
-          <li>
-            Diagnosed and resolved production issues across ETL pipelines and
-            database migrations
-          </li>
-          <li>
-            Optimized queries and refactored legacy code to improve performance
-            and maintainability
-          </li>
-          <li>
-            Refactored legacy Rails code to improve maintainability and reduce
-            technical debt
-          </li>
+          <li>Built backend features supporting billing and usage workflows.</li>
+          <li>Refactored legacy Rails code to improve maintainability.</li>
+          <li>Resolved production issues across ETL pipelines and database migrations.</li>
         </ul>
       </div>
 
       <div className="experience-card">
-        <h3>Arux Software</h3>
-        <p className="experience-role">Software Engineer</p>
-        <p className="experience-date">2021 – 2025</p>
+        <div className="experience-header">
+          <div>
+            <h3>Software Engineer</h3>
+            <p>Arux Software</p>
+          </div>
+          <span>September 2021 – March 2025</span>
+        </div>
 
         <ul>
-          <li>
-            Worked across backend systems and frontend features to support
-            customer needs
-          </li>
-          <li>
-            Built custom scripts and handled data fixes to resolve real-world
-            issues
-          </li>
-          <li>
-            Managed and rebuilt Zendesk as an admin, improving support workflows
-          </li>
-          <li>
-            Collaborated with QA and engineering teams to troubleshoot and
-            resolve bugs
-          </li>
-          <li>
-            Delivered small frontend features and bug fixes to improve user
-            experience
-          </li>
+          <li>Resolved customer-facing bugs and supported production software issues.</li>
+          <li>Built custom Ruby scripts and XML configurations for client requests.</li>
+          <li>Managed and rebuilt Zendesk workflows during a company rebrand.</li>
         </ul>
       </div>
     </section>
